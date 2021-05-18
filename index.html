@@ -4,82 +4,175 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
-    <title>Bootstrap npm starter</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=KoHo:wght@200&display=swap" rel="stylesheet"> <!--title-font-->
+    <title>Spicy Ketchup</title>
   </head>
   <body>
     <div class="col-md-8 py-5 px-3 mx-auto">
 
-      <header class="pb-3 mb-5 border-bottom">
-        <h1 class="h4">
-          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-inline-block mr-2" viewBox="0 0 118 94" role="img"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-            <span>npm starter</span>
+      <header class="pb-1 mb-5 border-bottom">
+        <h1 class="Title">
+          <a href="/" class="d-flex align-items-center text-dark text-decoration-none"> <!--width="40" height="32"-->
+            <svg id="af2898b0-c0aa-4769-afbb-f9d9f0c2ebd6" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 3 40 40" width="180" height="180"><path d="M19.81383,35.86127q-9.91516,0-19.83033.00376c-.1499.00009-.18368-.03378-.18363-.18367q.006-19.83031,0-39.66062c0-.1499.03374-.18368.18363-.18364q19.83033.006,39.66066,0c.14989,0,.18368.03374.18363.18364q-.006,19.8303,0,39.66062c.00005.14989-.03373.18376-.18364.18367Q29.729,35.85851,19.81383,35.86127Z" transform="translate(0.20013 4.1629)" style="fill:#fefefe"/><path d="M30.07279,14.85784a2.85441,2.85441,0,0,1,.0453.76511,12.06871,12.06871,0,0,1-.01539,1.72673,11.4898,11.4898,0,0,1-.17609,1.32781q-.14514.77462-.36063,1.52891a14.81785,14.81785,0,0,1-.74914,1.98572,19.65532,19.65532,0,0,1-1.691,2.98071,14.77121,14.77121,0,0,1-2.3385,2.72289,9.72987,9.72987,0,0,1-3.32685,1.99976,10.2165,10.2165,0,0,1-1.86768.449,2.5942,2.5942,0,0,1-.53818-.00068c-.10447-.00673-.13743-.06089-.05677-.15684a6.00069,6.00069,0,0,1,.53526-.55891,6.94772,6.94772,0,0,0,1.636-2.30565,1.75065,1.75065,0,0,0,.10226-.71976c.00084-.12884-.08662-.10277-.14873-.08322a2.791,2.791,0,0,0-.68463.296,28.18424,28.18424,0,0,1-3.80692,2.05575,21.44494,21.44494,0,0,1-2.73592,1.02422c-.68545.19848-1.38565.33929-2.08954.46987a18.46515,18.46515,0,0,1-4.01911.20918A10.12354,10.12354,0,0,1,6.22442,30.376c-.36735-.0708-.73671-.13928-1.09473-.23935A12.39533,12.39533,0,0,1,3.594,29.60737a13.00389,13.00389,0,0,1-2.86635-1.6495c-.11253-.08692-.29987-.1821-.26546-.30977.02813-.10441.23855-.12719.38024-.14763.48191-.06951.96706-.1204,1.44587-.20666a15.64293,15.64293,0,0,0,1.60868-.3691,13.69738,13.69738,0,0,0,1.6446-.58974A11.926,11.926,0,0,0,8.38545,24.6191a12.57906,12.57906,0,0,0,2.65426-3.11431,1.98647,1.98647,0,0,0,.39882-1.15517c-.00642-.13107.00456-.17969-.15793-.09632-.63429.3254-1.25941.67068-1.91972.94371a3.97512,3.97512,0,0,1-1.11422.30007,1.09456,1.09456,0,0,1-.774-.17829c-.2164-.15794-.22733-.27712-.00163-.41684.18843-.11665.38444-.22157.5805-.32526A3.34863,3.34863,0,0,0,9.01,19.67022a15.90721,15.90721,0,0,0,1.87654-3.02251c.50491-.99053.92188-2.0213,1.42463-3.01184A21.60127,21.60127,0,0,1,14.294,10.32453a9.81986,9.81986,0,0,1,2.86763-2.64689,6.98759,6.98759,0,0,1,2.2834-.86048c.26317-.04767.526-.09691.79056-.13712-.00117.092-.07861.11626-.13923.15221a7.88343,7.88343,0,0,0-2.5769,2.49163,13.658,13.658,0,0,0-1.38865,2.89258c-.42071,1.15885-.74276,2.348-1.11858,3.52044-.311.97024-.65587,1.92787-1.00656,2.88435a22.737,22.737,0,0,1-1.0138,2.34556A19.95633,19.95633,0,0,1,10.938,24.27052,13.56727,13.56727,0,0,1,8.8104,26.4552a13.25227,13.25227,0,0,1-1.15243.85989,2.94445,2.94445,0,0,0-.39906.33156c-.11347.10673-.1.14345.04909.20364a.66538.66538,0,0,0,.25432.04259c.52638-.00023,1.05481.02877,1.57854-.00876.47677-.03417.95486-.06944,1.431-.12351.4354-.04944.87248-.08825,1.30576-.15239.3473-.05141.69426-.11107,1.03838-.18167.61284-.12573,1.22884-.2392,1.83176-.40871.5764-.16205,1.15538-.31346,1.72287-.50869a25.95538,25.95538,0,0,0,2.67018-1.06463,19.41207,19.41207,0,0,0,1.89615-.98566c.38544-.23751.71531-.5546,1.08379-.81827a1.237,1.237,0,0,1,.64457-.24431.55549.55549,0,0,1,.491.21541,1.67155,1.67155,0,0,1,.34131,1.3499c-.06116.46165-.15.91758-.25647,1.37055a1.25758,1.25758,0,0,0-.011.37818c.00734.10476.06489.13782.1648.10311a.83961.83961,0,0,0,.28142-.18451,9.6803,9.6803,0,0,0,.91166-1.006q.96582-1.14538,1.83554-2.36723a22.02092,22.02092,0,0,0,2.39967-4.30078,16.37709,16.37709,0,0,0,.74887-2.27216c.1386-.54264.24044-1.09134.3374-1.64179C30.02078,14.97705,30.01219,14.90514,30.07279,14.85784Z" transform="translate(0.20013 4.1629)" style="fill:#cd1312"/><path d="M30.07279,14.85784a10.45773,10.45773,0,0,1-.23947,1.38716,14.45783,14.45783,0,0,1-.65861,2.2247,21.52382,21.52382,0,0,1-1.14523,2.48022,21.41964,21.41964,0,0,1-1.16262,1.89628,31.26193,31.26193,0,0,1-1.90528,2.51734,16.96051,16.96051,0,0,1-1.15918,1.31307.73207.73207,0,0,1-.086.08329c-.109.075-.2341.174-.35886.12847-.13454-.04907-.06755-.20932-.08476-.32254a1.69557,1.69557,0,0,1,.10352-.63846,6.76613,6.76613,0,0,0,.19636-1.27042,1.36521,1.36521,0,0,0-.44473-1.10485.61994.61994,0,0,0-.65732-.04257,2.40717,2.40717,0,0,0-.7544.50646,9.92516,9.92516,0,0,1-1.99793,1.20716c-.67932.35843-1.39156.642-2.09789.93641-.5193.21644-1.06435.372-1.60044.547a20.36967,20.36967,0,0,1-2.34692.61656c-.49056.09759-.98173.19289-1.47632.27376-.80342.13136-1.61173.19287-2.41859.282-.76521.08457-1.52731.0407-2.29017.07-.13517.00519-.23233-.08571-.36031-.09683-.07016-.00609-.04036-.08115-.00789-.12728a1.5476,1.5476,0,0,1,.40394-.377,14.84107,14.84107,0,0,0,2.61123-2.20662,14.57734,14.57734,0,0,0,1.4409-1.84951,22.05216,22.05216,0,0,0,1.36588-2.34708,25.11677,25.11677,0,0,0,1.07146-2.503c.21195-.58171.41974-1.16618.63793-1.74619.18412-.48946.31174-1.00009.4666-1.50066.15568-.50321.31418-1.00555.47129-1.50832.10966-.35093.21207-.70432.33059-1.05223.11046-.32419.24015-.64178.35748-.9637a12.09827,12.09827,0,0,1,1.04612-2.1461,7.58525,7.58525,0,0,1,.88051-1.19493A8.27569,8.27569,0,0,1,19.881,6.896c.11711-.07366.23629-.144.35455-.21593a5.78791,5.78791,0,0,1,.87539-.184,3.78415,3.78415,0,0,1,.86563-.10435,3.02471,3.02471,0,0,1,.67213-.00005,1.40559,1.40559,0,0,1,.81339.16661c.152.17558.13973.40791.20839.61217a.50323.50323,0,0,1,.02749.36895c-.04835.07026-.12753.06388-.19775.07588A5.941,5.941,0,0,0,21.902,8.104a4.697,4.697,0,0,0-1.49089,1.184,9.25637,9.25637,0,0,0-1.53084,2.62764c-.68186,1.65355-1.17379,3.36891-1.7217,5.06651-.25974.80476-.51429,1.61093-.80486,2.406a26.43968,26.43968,0,0,1-1.07286,2.51547,13.06759,13.06759,0,0,1-1.50815,2.39612c-.10758.13565-.20095.28184-.31678.41151-.06349.07107-.11912.16713-.058.25383.06417.091.16971.04325.25867.01927.82363-.222,1.62168-.52319,2.42982-.79247.81477-.27149,1.63861-.51963,2.4312-.85413a15.49092,15.49092,0,0,0,2.78532-1.4297,13.31382,13.31382,0,0,0,1.5976-1.32294,2.94457,2.94457,0,0,1,.69231-.50275.56774.56774,0,0,1,.8465.24957,2.35615,2.35615,0,0,1,.28009.8898,2.23936,2.23936,0,0,0,.18855.6083c.06914.15435.12958.16788.28439.08709a1.341,1.341,0,0,0,.44283-.505,27.03659,27.03659,0,0,0,1.64772-2.73681,20.64162,20.64162,0,0,0,1.2574-2.91269c.24316-.72035.41451-1.45793.58885-2.19567a.30358.30358,0,0,1,.05495-.14792.49923.49923,0,0,1,.52854.10779.83474.83474,0,0,1,.19165.13612A11.17018,11.17018,0,0,1,30.07279,14.85784Z" transform="translate(0.20013 4.1629)" style="fill:#f04117"/><path d="M23.69936,7.54275q-.11857-.49222-.23719-.98445a1.98511,1.98511,0,0,1,1.61162.11206c.47441.21116.88912.5303,1.37234.72778A1.65771,1.65771,0,0,0,28.54678,6.798a8.1537,8.1537,0,0,0,.63531-1.07733,4.00042,4.00042,0,0,1,.99147-1.18738,7.2137,7.2137,0,0,1,1.62535-1.05058,7.61392,7.61392,0,0,1,1.30862-.49882,4.76094,4.76094,0,0,1,1.41671-.191,3.56616,3.56616,0,0,1,1.68254.53315,6.34115,6.34115,0,0,1,2.06077,1.96932,4.70468,4.70468,0,0,1,.71437,1.697.58571.58571,0,0,1-.132.47787.33533.33533,0,0,1-.47629-.019,1.48861,1.48861,0,0,1-.29272-.41611A5.43053,5.43053,0,0,0,37.03369,5.6386a3.85385,3.85385,0,0,0-2.19931-1.10882,3.49086,3.49086,0,0,0-2.4822.55453,4.83687,4.83687,0,0,0-1.27975,1.434A10.1687,10.1687,0,0,0,29.8502,9.24791a4.36721,4.36721,0,0,0-.21119,1.41254c.03613.64157.10179,1.282.17411,1.92168.04039.35719.08338.71879.0912,1.08087a.6195.6195,0,0,1-.31783-.15417.46844.46844,0,0,0-.39423-.071c-.11286.02845-.18763-.0506-.27087-.09989a2.938,2.938,0,0,1-.51219-.345,1.16784,1.16784,0,0,0-.13327-.24475,13.11513,13.11513,0,0,1-.943-1.80039A2.98951,2.98951,0,0,0,25.8034,9.496,2.68552,2.68552,0,0,0,24.705,9.35631a.49276.49276,0,0,1-.2358-.01945,1.384,1.384,0,0,1-.3365-.53382C24.00526,8.37651,23.83839,7.9646,23.69936,7.54275Z" transform="translate(0.20013 4.1629)" style="fill:#318130"/><path d="M22.64873,6.39169l-.67213.00005A1.24064,1.24064,0,0,1,22.64873,6.39169Z" transform="translate(0.20013 4.1629)" style="fill:#cd1312"/><path d="M28.44461,12.97532l.74762.46249a11.83,11.83,0,0,1-.31556,1.38839,18.41382,18.41382,0,0,1-1.46212,3.71124q-.50728.99026-1.10245,1.93169-.41949.664-.8694,1.30733a.96907.96907,0,0,1-.38526.26728c-.07626.04225-.11423-.042-.14734-.09773a2.93819,2.93819,0,0,1-.28571-.94031,1.83162,1.83162,0,0,0-.28134-.73089.50086.50086,0,0,0-.6617-.18495,2.33573,2.33573,0,0,0-.65325.44775,11.97948,11.97948,0,0,1-3.4834,2.41133,29.413,29.413,0,0,1-3.04361,1.15912c-.812.26631-1.62043.54347-2.42829.82208-.14954.05158-.30819.05937-.45622.12621-.07858.03548-.22392.05942-.27878-.02828a.27637.27637,0,0,1,.05726-.33252c.10064-.1074.17756-.23213.26935-.34486a13.43322,13.43322,0,0,0,1.56249-2.45621c.3125-.62005.587-1.25811.84272-1.90379.36776-.92868.67782-1.877.97193-2.83134.27286-.88537.57545-1.76159.84769-2.64714.24233-.78823.52188-1.56235.82415-2.32879a10.37786,10.37786,0,0,1,1.266-2.44458A5.20749,5.20749,0,0,1,22.13208,7.9334a5.4209,5.4209,0,0,1,1.56712-.39062c.12845.08559.1281.23665.18182.3598a8.33056,8.33056,0,0,0,.43992,1.13232c.05546.08941.10693.18131.16023.27207-.02167.09656-.10737.13159-.17731.1789a18.72419,18.72419,0,0,0-1.514,1.10944,3.16367,3.16367,0,0,0-.8642,1.16c-.39631.895-.72863,1.81629-1.09819,2.72224-.50792,1.24514-.99633,2.498-1.49814,3.7455-.33778.83975-.68,1.67788-1.00246,2.5238a.39648.39648,0,0,0-.0296.17557c.01382.17072.0597.20268.23085.17049a3.62064,3.62064,0,0,0,.97489-.40355A14.15744,14.15744,0,0,0,21.6587,19.3232a14.05775,14.05775,0,0,0,1.97837-1.823,3.20745,3.20745,0,0,1,.54767-.52379c.35581-.24883.59388-.19687.836.1637a3.18063,3.18063,0,0,1,.248.60857c.16441.40169.24253.4162.533.09852a1.54188,1.54188,0,0,0,.20439-.34151q.94171-1.78385,1.89616-3.56092A8.18114,8.18114,0,0,1,28.44461,12.97532Z" transform="translate(0.20013 4.1629)" style="fill:#f58b2e"/><path d="M28.44461,12.97532a4.42727,4.42727,0,0,1-.40112.81634c-.33892.64954-.67646,1.3-1.02952,1.94191-.37335.67879-.73025,1.366-1.09274,2.05036a1.33353,1.33353,0,0,1-.319.32765c-.09227.08155-.174.03256-.23425-.05435a1.83258,1.83258,0,0,1-.2229-.508,1.5181,1.5181,0,0,0-.211-.447.417.417,0,0,0-.64706-.13557,3.09018,3.09018,0,0,0-.66685.62684,14.37145,14.37145,0,0,1-2.65854,2.295,13.71435,13.71435,0,0,1-2.182,1.19951,2.09562,2.09562,0,0,1-.36624.08778c-.08256.01863-.11009-.02615-.142-.09805-.1052-.23708.04175-.42648.116-.62192.20339-.53555.42925-1.06251.64157-1.59472.21062-.52792.41686-1.05761.62275-1.5874.32671-.84071.66445-1.67715.99609-2.51583q.36606-.92579.7439-1.84817c.1758-.42628.33088-.86155.53639-1.27483a3.618,3.618,0,0,1,1.17078-1.354q.68987-.48873,1.38231-.97388a2.73644,2.73644,0,0,1,1.66015.27346,3.1949,3.1949,0,0,1,1.208,1.26754c.26094.45593.43432.95368.68692,1.41262a6.121,6.121,0,0,0,.34911.53242A.23948.23948,0,0,1,28.44461,12.97532Z" transform="translate(0.20013 4.1629)" style="fill:#f6c63c"/><text transform="translate(8.41344 23.95824)" style="font-size:12.181666374206543px;fill:#fff;font-family:Magneto-Bold, Magneto;font-weight:700">SK</text><text transform="translate(11.55699 28.86058)" style="font-size:5.283080101013184px;fill:#333;font-family:Magneto-Bold, Magneto;font-weight:700">16377</text></svg>
+            <span>|Spicy Ketchup 16377|</span>
           </a>
         </h1>
       </header>
+      <nav class="site-header sticky-top">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2 d-none d-md-inline-block" href="#" >Robot</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Programming</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">The Team</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Contact Us</a>
+  </div>
+</nav>
 
-      <h1>Get started with Bootstrap</h1>
-      <div class="col-lg-8 px-0">
-        <p class="lead">You've successfully loaded up the Bootstrap npm starter project! It's loaded up with <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap 4</a>, <a href="https://icons.getbootstrap.com">Bootstrap Icons</a>, and tooling for compiling our Sass and JavaScript to your needs.</p>
-        <p>If this button appears blue and the link appears purple, you've done it!</p>
-      </div>
+<div class="album py-5 bg-light">
+    <div class="container_bg">
 
-      <button type="button" class="btn btn-primary mr-3" data-toggle="modal" data-target="#exampleModal">Toggle example modal</button>
-      <a href="#" class="text-success">Example link</a>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img alt="mike" width="100%" height="225" src="C:\Users\valer\Documents\GitHub\Spicy-Ketchup-Website-Testing\assets\images\bruh.jpg">
+              <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
             </div>
-            <div class="modal-body">
-              If you're seeing this modal after clicking the button on the page, Bootstrap's CSS and JS are both working properly.
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img alt="skates" width="100%" height="225" src="C:\Users\valer\Documents\GitHub\Spicy-Ketchup-Website-Testing\assets\images\skates.jpg">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img alt="hhh" width="100%" height="225" src="C:\Users\valer\Documents\GitHub\Spicy-Ketchup-Website-Testing\assets\images\yum.jpg">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <hr class="my-5 w-25 mx-0">
-
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Adding Bootstrap Icons</h2>
-          <p><a href="https://icons.getbootstrap.com">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
-
-          <svg class="bi text-danger" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
-          </svg>
-          <svg class="bi text-dark" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles"/>
-          </svg>
-          <svg class="bi text-primary" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
-          </svg>
-        </div>
-
-        <div class="col-md-6">
-          <h2>Guides</h2>
-          <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-          <ul class="icon-list">
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction">Bootstrap quick start guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/webpack">Bootstrap Webpack guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/build-tools">Contributing to Bootstrap</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <hr class="my-5">
-
-      <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
     </div>
+  </div>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
