@@ -218,4 +218,6 @@ h9{font-family: 'Bebas Neue', cursive; margin-top: .5rem; margin-bottom:.2rem;fo
 
 .align-items-center{-ms-flex-align:center !important;align-items:center !important; justify-content: center !important;}
 
+.bg-red{background-color:#be5555 !important}a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus{background-color:#241d1d !important}
+
 /*# sourceMappingURL=starter.css.map */
