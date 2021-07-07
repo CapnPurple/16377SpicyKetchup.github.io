@@ -225,6 +225,13 @@ h1{font-family: 'Bebas Neue', cursive;
     text-align: left;
 }
 
+.display-6 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    text-align: left;
+}
+
 .col-md-8{
   position: relative;
   width: 100%;
@@ -291,7 +298,7 @@ h11{font-family: 'Bebas Neue'; font-weight:100; font-size: 1.5rem;}
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color:#992424;
+    background-color:crimson;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -592,6 +599,7 @@ text-align: center;
 display: inline-block;
 padding-top: 1rem;
 margin: 1rem;
+margin-top: .5rem;
 }
 
 
